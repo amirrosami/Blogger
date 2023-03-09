@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "eFLYUDLAL0EbyI3D1bbabIpv1eT6ve48IScj50AuPhvALflpGK3Qzq1wjk1m60osedn4zdcOWBekYfJYy3EL0w==",
+  "dgSpecHash": "5uYN2+b6X4gzxbLsJ+lNOo8WwVu3MBT7su4T6EEY9bSjyu57FpQZPmnyJ09zohGNmKcFaNeknO0DQxv3tTS4wA==",
   "success": true,
   "projectFilePath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application\\Blog.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.14\\microsoft.entityframeworkcore.6.0.14.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.14\\microsoft.entityframeworkcore.abstractions.6.0.14.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.14\\microsoft.entityframeworkcore.analyzers.6.0.14.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS cebit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

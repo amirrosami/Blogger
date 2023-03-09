@@ -1,0 +1,12 @@
+F:\MY WORK\c#\Sample Projects\Solution1\Common\bin\Debug\net6.0\Common.deps.json
+F:\MY WORK\c#\Sample Projects\Solution1\Common\bin\Debug\net6.0\Common.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Common\bin\Debug\net6.0\Common.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\refint\Common.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\Common.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Common\obj\Debug\net6.0\ref\Common.dll

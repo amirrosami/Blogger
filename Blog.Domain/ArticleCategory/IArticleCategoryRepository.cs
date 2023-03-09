@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Blog.Domain.ArticleCategory
 {
-    public interface IArticleCategoryRepository
+    public interface IArticleCategoryRepository:IRepository<ArticleCategory,long>
     {
-        void Rename(string title);
-        void Remove();
-        void Activate();
-
+        
     }
 }

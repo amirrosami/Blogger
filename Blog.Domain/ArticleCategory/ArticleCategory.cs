@@ -17,6 +17,7 @@ namespace Blog.Domain.ArticleCategory
 
         public ArticleCategory(string title)
         {
+            CheckTitleIsNullOrEmpty(title);
             Title = title;
         }
 
@@ -31,6 +32,7 @@ namespace Blog.Domain.ArticleCategory
 
         public void Rename(string title)
         {
+            CheckTitleIsNullOrEmpty(title);
             Title=title;
         }
 

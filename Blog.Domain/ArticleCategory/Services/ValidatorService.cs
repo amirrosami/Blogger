@@ -9,5 +9,6 @@ namespace Blog.Domain.ArticleCategory.Services
     public class ValidatorService
     {
 
+
     }
 }

@@ -1,0 +1,12 @@
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\bin\Debug\net6.0\Blog.Application.Contracts.deps.json
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\bin\Debug\net6.0\Blog.Application.Contracts.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\bin\Debug\net6.0\Blog.Application.Contracts.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.csproj.AssemblyReference.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.AssemblyInfoInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.AssemblyInfo.cs
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\refint\Blog.Application.Contracts.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\Blog.Application.Contracts.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Application.Contracts\obj\Debug\net6.0\ref\Blog.Application.Contracts.dll

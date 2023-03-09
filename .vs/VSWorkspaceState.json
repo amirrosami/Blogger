@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Blog.Domain",
+    "\\Blog.Domain\\ArticleCategory",
+    "\\Blog.Domain\\ArticleCategory\\Services"
+  ],
+  "SelectedNode": "\\Blog.Domain\\ArticleCategory\\Services\\ValidatorService.cs",
+  "PreviewInSolutionExplorer": false
+}

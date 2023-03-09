@@ -1,0 +1,15 @@
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Blog.Domain.deps.json
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Blog.Domain.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Blog.Domain.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Common.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Common.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.csproj.AssemblyReference.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.AssemblyInfoInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.AssemblyInfo.cs
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.csproj.CoreCompileInputs.cache
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.csproj.CopyComplete
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\refint\Blog.Domain.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.pdb
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\ref\Blog.Domain.dll
