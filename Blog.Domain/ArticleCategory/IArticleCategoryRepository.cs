@@ -8,6 +8,9 @@ namespace Blog.Domain.ArticleCategory
 {
     public interface IArticleCategoryRepository
     {
+        void Rename(string title);
+        void Remove();
+        void Activate();
 
     }
 }
