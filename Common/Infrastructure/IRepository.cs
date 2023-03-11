@@ -10,9 +10,11 @@ namespace Common.Infrastructure
     public interface IRepository<T,in Tkey> where T :DomainBase<Tkey>
     {
         void Create(T entity);
-        T Get(Tkey id);
+        T GetBy(Tkey id);
+        T GetBy(Expression<Func<T,bool>> expression);
         List<T> GetAll();
         bool Exists(Expression<Func<T, bool>> expr);
+        void Remove(Expression<Func<T,bool>> expr);
         void Save();
     }
 }

@@ -16,7 +16,5 @@ namespace Blog.Infrastructure.EF.Repositories
         {
             _dbContext = dbcontex;
         }
-
-
     }
 }

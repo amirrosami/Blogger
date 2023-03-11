@@ -21,7 +21,6 @@ namespace Common.Infrastructure
         {
             _dbcontex.Add<T>(entity);
             Save();
-
         }
 
         
@@ -30,7 +29,7 @@ namespace Common.Infrastructure
             return _dbcontex.Set<T>().Any(expr);
         }
 
-        public T Get(Tkey id)
+        public T GetBy(Tkey id)
         {
            return _dbcontex.Find<T>(id);
         }
@@ -45,5 +44,17 @@ namespace Common.Infrastructure
             _dbcontex.SaveChanges();
         }
 
+        public T? GetBy(Expression<Func<T, bool>> expression)
+        {
+           return _dbcontex.Set<T>().Where(expression).FirstOrDefault();
+        }
+
+        public void Remove(Expression<Func<T, bool>> expr)
+        {
+            T entity=_dbcontex.Set<T>().Where(expr).FirstOrDefault();
+
+            _dbcontex.Remove<T>(entity);
+            Save();
+        }
     }
 }
