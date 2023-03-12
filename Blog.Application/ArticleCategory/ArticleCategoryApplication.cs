@@ -16,9 +16,11 @@ namespace Blog.Application.ArticleCategory
         private readonly IUnitOfWork _uow;
         private readonly IArticleCategoryRepository _articleCategoryRepository;
 
-        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository)
+        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository,IUnitOfWork uow)
         {
             _articleCategoryRepository = articleCategoryRepository;
+            _uow = uow;
+
         }
 
         public void Activate(long id)

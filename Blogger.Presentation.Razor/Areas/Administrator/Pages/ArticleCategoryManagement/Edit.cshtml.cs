@@ -7,7 +7,7 @@ namespace Blogger.Presentation.Razor.Areas.Administrator.Pages.ArticleCategoryMa
     public class EditModel : PageModel
     {
         private readonly IArticleCategoryApplication _articleCategoryApplication;
-
+        [BindProperty]
         public EditArticleCategory editarticlecategory { get; set; }
         public EditModel(IArticleCategoryApplication articleCategoryApplication)
         {
@@ -19,8 +19,14 @@ namespace Blogger.Presentation.Razor.Areas.Administrator.Pages.ArticleCategoryMa
         public void OnGet(long id)
         {
            var articlecategory= _articleCategoryApplication.GetBy(id);
-            editarticlecategory.Title = articlecategory.Title;
-            editarticlecategory.Id= id;
+
+            editarticlecategory = new EditArticleCategory
+            {
+                Title = articlecategory.Title,
+                Id = articlecategory.Id
+            };
+            /*editarticlecategory.Title = articlecategory.Title;
+            editarticlecategory.Id= id;*/
         }
 
         public IActionResult OnPost(EditArticleCategory command)

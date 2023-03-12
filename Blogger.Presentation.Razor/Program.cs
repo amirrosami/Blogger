@@ -1,7 +1,10 @@
+using Blogger.Infrastructure.Core;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+Bootstrapper.ConfigBloggerServices(builder.Services,builder.Configuration.GetConnectionString("BloggerDb"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
