@@ -195,6 +195,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Blog.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Blog.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Application.Contracts.dll": {}
+        }
+      },
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -534,6 +544,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Blog.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Application.Contracts/Blog.Application.Contracts.csproj",
+      "msbuildProject": "../Blog.Application.Contracts/Blog.Application.Contracts.csproj"
+    },
     "Common/1.0.0": {
       "type": "project",
       "path": "../Common/Common.csproj",
@@ -542,6 +557,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blog.Application.Contracts >= 1.0.0",
       "Common >= 1.0.0"
     ]
   },
@@ -577,6 +593,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj": {
+              "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj"
+            },
             "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Common\\Common.csproj": {
               "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Common\\Common.csproj"
             }

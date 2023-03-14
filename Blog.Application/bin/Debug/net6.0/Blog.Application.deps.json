@@ -151,6 +151,7 @@
       },
       "Blog.Domain/1.0.0": {
         "dependencies": {
+          "Blog.Application.Contracts": "1.0.0",
           "Common": "1.0.0"
         },
         "runtime": {

@@ -635,10 +635,21 @@
           }
         }
       },
+      "Blog.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Blog.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Application.Contracts.dll": {}
+        }
+      },
       "Blog.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Blog.Application.Contracts": "1.0.0",
           "Common": "1.0.0"
         },
         "compile": {
@@ -1882,6 +1893,11 @@
         "version.txt"
       ]
     },
+    "Blog.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Application.Contracts/Blog.Application.Contracts.csproj",
+      "msbuildProject": "../Blog.Application.Contracts/Blog.Application.Contracts.csproj"
+    },
     "Blog.Domain/1.0.0": {
       "type": "project",
       "path": "../Blog.Domain/Blog.Domain.csproj",
@@ -1895,6 +1911,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blog.Application.Contracts >= 1.0.0",
       "Blog.Domain >= 1.0.0",
       "Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.14",
@@ -1935,6 +1952,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj": {
+              "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj"
+            },
             "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Domain\\Blog.Domain.csproj": {
               "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Domain\\Blog.Domain.csproj"
             },

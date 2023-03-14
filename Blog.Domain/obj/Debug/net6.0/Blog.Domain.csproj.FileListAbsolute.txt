@@ -13,3 +13,5 @@ F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\refint\Blog.Domain.dll
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\Blog.Domain.pdb
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\obj\Debug\net6.0\ref\Blog.Domain.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Blog.Application.Contracts.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Domain\bin\Debug\net6.0\Blog.Application.Contracts.pdb

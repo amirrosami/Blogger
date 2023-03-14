@@ -34,7 +34,7 @@ namespace Common.Infrastructure
            return _dbcontex.Find<T>(id);
         }
 
-        public List<T> GetAll()
+        public virtual List<T> GetAll()
         {
           return  _dbcontex.Set<T>().ToList();
         }

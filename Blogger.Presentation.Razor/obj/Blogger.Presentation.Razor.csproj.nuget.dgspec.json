@@ -155,6 +155,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj": {
+                "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj"
+              },
               "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Common\\Common.csproj": {
                 "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Common\\Common.csproj"
               }
@@ -217,6 +220,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj": {
+                "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Application.Contracts\\Blog.Application.Contracts.csproj"
+              },
               "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Domain\\Blog.Domain.csproj": {
                 "projectPath": "F:\\MY WORK\\c#\\Sample Projects\\Solution1\\Blog.Domain\\Blog.Domain.csproj"
               },

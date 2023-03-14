@@ -626,6 +626,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Blog.Application.Contracts": "1.0.0",
           "Common": "1.0.0"
         },
         "compile": {
@@ -639,6 +640,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Blog.Application.Contracts": "1.0.0",
           "Blog.Domain": "1.0.0",
           "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.14",

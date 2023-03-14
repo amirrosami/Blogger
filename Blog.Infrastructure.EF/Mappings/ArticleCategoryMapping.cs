@@ -10,9 +10,11 @@ namespace Blog.Infrastructure.EF.Mappings
         {
             builder.ToTable("ArticleCategories");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Title).IsRequired();
+            builder.Property(x => x.Title);
             builder.Property(x => x.IsDeleted);
             builder.Property(x => x.CreationDate);
+            builder.HasMany(x => x.articles)
+                .WithOne(x => x.articlecategory);
         }
     }
 }

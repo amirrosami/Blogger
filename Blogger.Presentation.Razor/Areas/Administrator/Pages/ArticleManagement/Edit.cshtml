@@ -1,0 +1,64 @@
+﻿@page
+@model Blogger.Presentation.Razor.Areas.Administrator.Pages.ArticleManagement.EditModel
+@{
+}
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h2>Edit Article : @Model.Article.Title</h2>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Article.Id"/>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="Article.Title" class="control-label">Title:</label>
+                            <input asp-for="Article.Title" name="Title" class="form-control"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="Article.ShortDscp" class="control-label">ShortDescription:</label>
+                            <textarea asp-for="Article.ShortDscp" name="ShortDscp" class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="Article.ImgAddress" class="control-label">Image:</label>
+                            <input asp-for="Article.ImgAddress" name="ImgAddress" class="form-control"/>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="Article.Body" class="control-label">Content:</label>
+                            <textarea asp-for="Article.Body" name="Body" class="form-control" rows="5"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="Article.CategoryId" class="control-label">Article Category:</label>
+                            <select asp-for="Article.CategoryId" asp-items="Model.ArticleCategories" name="CategoryId" class="form-control">
+                                <option value="0">Select Article Category</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Edit" class="btn btn-warning"/>
+                        <a class="btn btn-dark" asp-page="./List" asp-area="Administrator">Back to list</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

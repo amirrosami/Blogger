@@ -1,4 +1,5 @@
-﻿using Blog.Domain.ArticleCategory;
+﻿using Blog.Domain.ArticleAgg;
+using Blog.Domain.ArticleCategory;
 using Blog.Infrastructure.EF.Mappings;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,9 +17,7 @@ namespace Blog.Infrastructure.EF
 
         }
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
-
-
-
+        public DbSet<Article> Articles { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

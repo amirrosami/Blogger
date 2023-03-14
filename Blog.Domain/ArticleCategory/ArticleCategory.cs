@@ -1,4 +1,5 @@
-﻿using Blog.Domain.ArticleCategory.Exceptions;
+﻿using Blog.Domain.ArticleAgg;
+using Blog.Domain.ArticleCategory.Exceptions;
 using Common;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Blog.Domain.ArticleCategory
     {
         public string Title { get;private set; }
         public Boolean IsDeleted { get;private set; }
-
+        public ICollection<Article> articles { get; set; }
 
 
         public ArticleCategory(string title)
@@ -20,6 +21,7 @@ namespace Blog.Domain.ArticleCategory
             CheckTitleIsNullOrEmpty(title);
             
             Title = title;
+            articles = new List<Article>();
         }
 
         

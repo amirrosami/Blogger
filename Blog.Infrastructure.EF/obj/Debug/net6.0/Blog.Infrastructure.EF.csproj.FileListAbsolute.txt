@@ -17,3 +17,5 @@ F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\obj\Debug\net6.0\
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\obj\Debug\net6.0\Blog.Infrastructure.EF.pdb
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\obj\Debug\net6.0\Blog.Infrastructure.EF.genruntimeconfig.cache
 F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\obj\Debug\net6.0\ref\Blog.Infrastructure.EF.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\bin\Debug\net6.0\Blog.Application.Contracts.dll
+F:\MY WORK\c#\Sample Projects\Solution1\Blog.Infrastructure.EF\bin\Debug\net6.0\Blog.Application.Contracts.pdb

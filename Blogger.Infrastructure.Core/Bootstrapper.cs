@@ -1,5 +1,8 @@
-﻿using Blog.Application.ArticleCategory;
+﻿using Blog.Application.Article;
+using Blog.Application.ArticleCategory;
+using Blog.Application.Contracts.Article;
 using Blog.Application.Contracts.ArticleCategory;
+using Blog.Domain.ArticleAgg;
 using Blog.Domain.ArticleCategory;
 using Blog.Infrastructure.EF;
 using Blog.Infrastructure.EF.Repositories;
@@ -20,6 +23,10 @@ namespace Blogger.Infrastructure.Core
         {
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
+
+            services.AddTransient<IArticleApplication, ArticleApplication>();
+            services.AddTransient<IArticleRepository, ArticleRepository>();
+
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
